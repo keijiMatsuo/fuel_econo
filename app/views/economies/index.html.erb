@@ -1,0 +1,31 @@
+<main class="main">
+  <div class="inner">
+    <div class="greeting">
+    <% if user_signed_in? %>
+      ようこそ、
+      <%= "#{current_user.name}さん" %>
+    </div>
+
+    <div class="main__wrapper">
+      <div class="post-content">
+        <% @economies.each do |economy| %>
+          <%if current_user.id == economy.user.id%>
+            <%= l economy.created_at %>
+            燃費は、
+            <%= "#{sprintf("%.2f", (economy.mileage) / (economy.amount).to_f)}" %> km/ℓです。
+            <%= link_to "削除", economy_path(economy.id), method: :delete, class: :delete__btn %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+
+    <% else %>
+      <div class="greeting">
+        ログインしてください。
+      </div>
+      <div class="main__wrapper">
+      </div>
+    <% end %>
+    </div>
+  </div>
+</main>
