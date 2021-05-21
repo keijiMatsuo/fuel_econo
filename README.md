@@ -15,10 +15,11 @@
 
 ## economies テーブル
 
-| Column       | Type       | Options                        |
-| ------------ | ---------- | ------------------------------ |
-| fuel_economy | integer    | null: false                    |
-| user         | references | null: false, foreign_key: true |
+| Column  | Type       | Options                        |
+| ------- | ---------- | ------------------------------ |
+| mileage | integer    | null: false                    |
+| amount  | integer    | null: false                    |
+| user    | references | null: false, foreign_key: true |
 
 ### Association
 
