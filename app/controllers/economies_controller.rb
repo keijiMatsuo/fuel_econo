@@ -13,7 +13,7 @@ class EconomiesController < ApplicationController
   def create
     @economy = Economy.new(economy_params)
     if @economy.save
-      redirect_to root_path()
+      redirect_to root_path
     else
       render :new
     end
