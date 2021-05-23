@@ -1,3 +1,9 @@
+# アプリケーションURL
+https://fuel-econo.herokuapp.com/　＊只今、エラー解消中。（2021/5/22）
+
+--README編集中です。--
+
+
 # FUEL_ECONOテーブル設計
 
 ## users テーブル
