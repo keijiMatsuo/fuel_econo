@@ -10,7 +10,7 @@ FUEL-ECONO(フューエルエコノ)
 ## アプリケーション情報
 - URL: https://fuel-econo.herokuapp.com/<br>
 - テストアカウント
-  - メールアドレス: `test@nenpi.com`
+  - メールアドレス: test@nenpi.com
   - パスワード: a11111
 
 -- README編集中です。--
