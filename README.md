@@ -8,8 +8,10 @@ FUEL-ECONO(フューエルエコノ)
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
 ## アプリケーション情報
-URL: https://fuel-econo.herokuapp.com/
-テストアカウント
+- URL: https://fuel-econo.herokuapp.com/
+- テストアカウント
+ - メールアドレス: test@nenpi.com
+ - パスワード: a11111
 
 -- README編集中です。--
 
