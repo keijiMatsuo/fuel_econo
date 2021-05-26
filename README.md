@@ -1,9 +1,15 @@
 # アプリケーション名
-FUEL-ECONO
+FUEL-ECONO(フューエルエコノ)
+
 # FUEL-ECONOとは
-新規登録/ログインし、走行距離と給油量を入力すると、自動で燃費を計算するアプリです。
+走行距離と給油量を入力すると、燃費を計算します。
+使い方は簡単で、新規登録もしくはログインして計算ページから数値を入力するだけです。
 ![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
+
+## アプリケーション情報
+URL: https://fuel-econo.herokuapp.com/
+テストアカウント
 
 --README編集中です。--
 
