@@ -1,5 +1,4 @@
 class EconomiesController < ApplicationController
-
   before_action :authenticate_user!, only: :new
 
   def index
@@ -33,5 +32,4 @@ class EconomiesController < ApplicationController
   def economy_params
     params.require(:economy).permit(:mileage, :amount).merge(user_id: current_user.id)
   end
-
 end
