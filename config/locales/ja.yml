@@ -6,4 +6,4 @@ ja:
   activerecord:
     attributes:
       user:
-        name: ネーム
+        name: ユーザー名
