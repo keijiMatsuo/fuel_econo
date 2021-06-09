@@ -61,3 +61,4 @@ end
 gem 'devise'
 gem "chartkick"
 gem "rails-i18n"
+gem 'pry-rails'
