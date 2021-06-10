@@ -62,3 +62,4 @@ gem 'devise'
 gem "chartkick"
 gem "rails-i18n"
 gem 'pry-rails'
+gem 'factory_bot_rails'
