@@ -7,7 +7,7 @@ end
 
 describe 'ユーザー新規登録' do
   context '新規登録できる' do
-    it 'name, email, password, password_confirmation が存在すれば登録できる' do
+    it 'name, email, password, password_confirmationが存在すれば登録できる' do
       expect(@user).to be_valid
     end
     it 'passwordが6文字以上あれば登録できる' do
@@ -16,3 +16,4 @@ describe 'ユーザー新規登録' do
       expect(@user).to be_valid
     end
   end
+end
