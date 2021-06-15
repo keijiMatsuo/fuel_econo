@@ -16,4 +16,11 @@ describe 'ユーザー新規登録' do
       expect(@user).to be_valid
     end
   end
+
+  context '新規登録できない' do
+    it 'nameが空では登録できない' do
+      @user.name = ''
+      @user.valid?
+        expect(@user.errors.full_messages).to include("Name can't be blank")
+    end
 end
