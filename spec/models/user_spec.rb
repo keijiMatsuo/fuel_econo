@@ -23,4 +23,8 @@ describe 'ユーザー新規登録' do
       @user.valid?
       expect(@user.errors.full_messages).to include("Name can't be blank")
     end
+    it 'passwordが空では登録できない' do
+      @user.password = ''
+      @user.valid?
+      expect(@user.errors.full_messages).to include()
 end
