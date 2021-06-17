@@ -27,4 +27,6 @@ describe 'ユーザー新規登録' do
       @user.password = ''
       @user.valid?
       expect(@user.errors.full_messages).to include()
+    end
+    
 end
