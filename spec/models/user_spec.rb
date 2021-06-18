@@ -28,5 +28,6 @@ describe 'ユーザー新規登録' do
       @user.valid?
       expect(@user.errors.full_messages).to include()
     end
-    
+    it '' do
+    end
 end
