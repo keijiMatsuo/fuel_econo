@@ -26,7 +26,7 @@ describe 'ユーザー新規登録' do
     it 'passwordが空では登録できない' do
       @user.password = ''
       @user.valid?
-      expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
+      expect(@user.errors.full_messages).to include("Password doesn't match Password")
     end
     it 'password_confirmationが空では登録できない' do
       @user.password_confirmation = ''
