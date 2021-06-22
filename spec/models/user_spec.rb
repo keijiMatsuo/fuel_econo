@@ -33,7 +33,7 @@ describe 'ユーザー新規登録' do
       @user.valid?
       expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
     end
-    it
+    it ''
     end
   end
 end
