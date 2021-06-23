@@ -33,7 +33,18 @@ describe 'ユーザー新規登録' do
       @user.valid?
       expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
     end
-    it ''
+    it 'passwordが5文字以下では登録できない' do
+      @user.password = '0abc1'
+      @user.password_confirmation = '0abc1'
+      @user.valid?
+      expect(@user.errors.full_messages).to include('Password is too short (minimum is 6 characters)')
     end
+    it 'passwordが半角英数混合でないと登録できない(数字のみ)' do
+      @user.password = '111111'
+      @user.password_confirmation = '111111'
+      @user.valid?
+      expect(@user.errors.full_messages).to include('Password is invalid')
+    end
+
   end
 end
