@@ -45,6 +45,12 @@ describe 'ユーザー新規登録' do
       @user.valid?
       expect(@user.errors.full_messages).to include('Password is invalid')
     end
+    it 'passwordが半角英数混合でないと登録できない(英字のみ)' do
+      @user.password = 'aaaAAA'
+      @user.password_confirmation = 'aaaAAA'
+      @user.valid?
+      expect(@user.errors.full_messages).to include('Password is invalid')
+    end
 
   end
 end
