@@ -26,19 +26,19 @@ URL: https://fuel-econo.herokuapp.com/<br>
 # 使用技術（開発環境）
 
 ## バックエンド
-- Ruby 2.6.5<br>
-- Ruby on Rails 6.0.3.7<br>
+Ruby 2.6.5<br>
+Ruby on Rails 6.0.3.7<br>
 ## データベース
-- Mysql 14.14
+Mysql 14.14
 ## ソース管理
-- GitHub, GitHubDesktop
+GitHub, GitHubDesktop
 ## テスト
-- RSpec
+RSpec
 ## エディタ
-- VSCode
+VSCode
 
 # 課題や今後実装したい機能
-- 計算した値を折れ線グラフで表示したい。
+計算した値を折れ線グラフで表示したい。
 
 # DB設計
 
