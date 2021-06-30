@@ -6,7 +6,7 @@ FUEL-ECONO(フューエルエコノ)
 ![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
-## 開発環境
+# 本番環境
 - Ruby 2.6.5<br>
 - Ruby on Rails 6.0.3.7<br>
 - Mysql 14.14
