@@ -20,10 +20,6 @@ URL: https://fuel-econo.herokuapp.com/<br>
 ## 機能一覧
 - ユーザー登録、ログイン機能(gem devise)
 
-## アプリケーション情報
-- テストアカウント
-  - メールアドレス: test@nenpi.com
-  - パスワード: a11111
 
 # FUEL_ECONOテーブル設計
 
