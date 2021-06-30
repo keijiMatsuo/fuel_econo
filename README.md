@@ -16,7 +16,9 @@ URL: https://fuel-econo.herokuapp.com/<br>
 
 
 # DEMO
+## トップページからユーザー登録 
 ![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
+## 投稿ページから走行距離と給油量を入力
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
 # 工夫したポイント
