@@ -20,7 +20,8 @@ URL: https://fuel-econo.herokuapp.com/<br>
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
 # 工夫したポイント
-
+- 新しい燃費から順番に、最大4つまでを表示するようにした。
+- 燃費を小数点第二位まで表示するようにした。
 
 # 使用技術（開発環境）
 - Ruby 2.6.5<br>
