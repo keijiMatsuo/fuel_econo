@@ -12,7 +12,8 @@ URL: https://fuel-econo.herokuapp.com/<br>
   - パスワード: a11111
 
 # 制作背景（意図）
-自動車で通勤している自分としては、日頃どれくらいの燃費なのかと気にする事がある。
+自動車で通勤していると、日頃どれくらいの燃費なのか気になる事がある。<br>
+
 
 # DEMO
 ![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
