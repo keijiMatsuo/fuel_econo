@@ -24,13 +24,18 @@ URL: https://fuel-econo.herokuapp.com/<br>
 - 燃費を小数点第二位まで表示するようにした。
 
 # 使用技術（開発環境）
+
+## バックエンド
 - Ruby 2.6.5<br>
 - Ruby on Rails 6.0.3.7<br>
+## データベース
 - Mysql 14.14
-
-## 機能一覧
-- ユーザー登録、ログイン機能(gem devise)
-
+## ソース管理
+- GitHub, GitHubDesktop
+## テスト
+- RSpec
+## エディタ
+- VSCode
 
 # DB設計
 
