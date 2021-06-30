@@ -3,8 +3,6 @@ FUEL-ECONO(フューエルエコノ)
 
 # 概要
 ユーザー登録を行い、走行距離と給油量を入力すると燃費を計算します。
-![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
-![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
 # 本番環境
 URL: https://fuel-econo.herokuapp.com/<br>
@@ -13,6 +11,14 @@ URL: https://fuel-econo.herokuapp.com/<br>
   - メールアドレス: test@nenpi.com
   - パスワード: a11111
 
+# 制作背景（意図）
+自動車で通勤している自分としては、日頃どれくらいの燃費なのかと気にする事がある。
+
+# DEMO
+![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
+![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
+
+# 使用技術（開発環境）
 - Ruby 2.6.5<br>
 - Ruby on Rails 6.0.3.7<br>
 - Mysql 14.14
