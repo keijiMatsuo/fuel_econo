@@ -18,6 +18,9 @@ URL: https://fuel-econo.herokuapp.com/<br>
 ![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
+# 工夫したポイント
+
+
 # 使用技術（開発環境）
 - Ruby 2.6.5<br>
 - Ruby on Rails 6.0.3.7<br>
@@ -27,7 +30,7 @@ URL: https://fuel-econo.herokuapp.com/<br>
 - ユーザー登録、ログイン機能(gem devise)
 
 
-# FUEL_ECONOテーブル設計
+# DB設計
 
 ## users テーブル
 
