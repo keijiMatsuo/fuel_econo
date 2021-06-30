@@ -3,8 +3,6 @@ FUEL-ECONO(フューエルエコノ)
 
 # 概要
 - ユーザー登録を行い、走行距離と給油量を入力すると燃費を計算します。
-- 
-- とにかく簡単に作りました。
 ![demo](https://gyazo.com/ac0c65a1e9e95703af5fd7e9ce85edc4/raw)
 ![demo](https://gyazo.com/10da83aa64d7112e13d0ec3ccdf9c52b/raw)
 
