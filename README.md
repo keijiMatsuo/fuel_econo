@@ -37,6 +37,9 @@ URL: https://fuel-econo.herokuapp.com/<br>
 ## エディタ
 - VSCode
 
+# 課題や今後実装したい機能
+- 計算した値を折れ線グラフで表示したい。
+
 # DB設計
 
 ## users テーブル
