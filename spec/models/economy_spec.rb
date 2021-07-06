@@ -4,3 +4,6 @@ RSpec.describe Economy, type: :model do
   before do
     @economy = FactoryBot.build(:economy)
 end
+
+describe '' do
+end
