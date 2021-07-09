@@ -7,4 +7,6 @@ end
 
 describe '燃費登録' do
   context '燃費を計算できる' do
+    it '' do
+    end
 end
