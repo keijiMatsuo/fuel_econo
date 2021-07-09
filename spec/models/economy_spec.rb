@@ -6,5 +6,5 @@ RSpec.describe Economy, type: :model do
 end
 
 describe '燃費を計算できる' do
-  context '' do
+  context '燃費を計算できる' do
 end
