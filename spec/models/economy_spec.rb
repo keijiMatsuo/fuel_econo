@@ -5,6 +5,6 @@ RSpec.describe Economy, type: :model do
     @economy = FactoryBot.build(:economy)
 end
 
-describe '燃費を計算できる' do
+describe '燃費登録' do
   context '燃費を計算できる' do
 end
