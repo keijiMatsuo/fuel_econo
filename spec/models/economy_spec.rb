@@ -10,4 +10,7 @@ describe '燃費登録' do
     it '走行距離と給油量があれば計算できる' do
       expect(@economy).to be_valid
     end
+  end
+  context '燃費を計算できない' do
+  end
 end
