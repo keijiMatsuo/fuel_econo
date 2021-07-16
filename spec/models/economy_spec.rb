@@ -12,7 +12,7 @@ describe '燃費登録' do
     end
   end
   context '燃費を計算できない' do
-    it '' do
+    it 'mileageが空では登録できない' do
     end
   end
 end
