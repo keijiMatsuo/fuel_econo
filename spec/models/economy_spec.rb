@@ -13,6 +13,9 @@ describe '燃費登録' do
   end
   context '燃費を計算できない' do
     it 'mileageが空では登録できない' do
+      @economy.mileage = ''
+      @economy.valid?
+      expect(@economy.errors.full_messages).to include()
     end
   end
 end
