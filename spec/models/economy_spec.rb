@@ -17,7 +17,7 @@ describe '燃費登録' do
       @economy.valid?
       expect(@economy.errors.full_messages).to include()
     end
-    it '' do
+    it 'amountが空では登録できない' do
     end
   end
 end
