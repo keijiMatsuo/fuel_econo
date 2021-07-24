@@ -22,8 +22,8 @@ describe '燃費登録' do
       @economy.valid?
       expect(@economy.errors.full_messages).to include()
     end
-    it '' do
+    it 'mileageが半角数字でないと登録できない' do
     end
-    
+
   end
 end
